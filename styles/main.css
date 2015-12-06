@@ -133,6 +133,10 @@ aside {
 }
 #navLeft h3 {
     margin: 0.5em;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
 }
 main {
     width: 550px;
