@@ -1,4 +1,6 @@
 /*
+The styles for the contact page*/
+/*
 The styles for other pages*/
 /*
 Styles for the homepage index.html*/
@@ -153,4 +155,28 @@ footer p {
 footer a {
     color: white;
     font-weight: bold;
+}
+label {
+    float: left;
+    width: 5em;
+    text-align: right;
+}
+input {
+    width: 50%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+#button {
+    width: 7em;
+    margin-left: 6em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-color: red;
+    padding: 1em;
+}
+#title {
+    font-weight: bold;
+    font-size: 125%;
+    padding: 1em;
 }

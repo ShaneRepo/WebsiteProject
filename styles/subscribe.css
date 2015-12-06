@@ -1,5 +1,5 @@
 /*
-The styles for other pages*/
+Styles for the subscribe page*/
 /*
 Styles for the homepage index.html*/
 * {
@@ -152,5 +152,14 @@ footer p {
 }
 footer a {
     color: white;
+    font-weight: bold;
+}
+#title {
+    font-weight: bold;
+    color: red;
+    padding: 1em;
+}
+main p {
+    padding: 1em;
     font-weight: bold;
 }
