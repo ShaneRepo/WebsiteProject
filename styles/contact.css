@@ -158,8 +158,9 @@ footer a {
 }
 label {
     float: left;
-    width: 5em;
+    width: 7em;
     text-align: right;
+    font-weight: bold;
 }
 input {
     width: 50%;
@@ -167,8 +168,8 @@ input {
     margin-bottom: 1em;
 }
 #button {
-    width: 7em;
-    margin-left: 6em;
+    width: 8em;
+    margin-left: 10em;
     font-weight: bold;
     color: white;
     background-color: black;
