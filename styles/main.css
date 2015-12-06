@@ -36,10 +36,12 @@ footer {
 }
 header img {
     float: left;
+    margin-left: .5em;
 }
 header h1,h2 {
     text-indent: 0.5em;
     color: black;
+    padding-top: .25em;
 }
 #navTop {
     width: 100%;
@@ -88,10 +90,10 @@ header h1,h2 {
     width: 154px;
 }
 #navTop ul li a:hover, #navTop ul li a:focus {
-    background-color: gray;
+    color: red;
 }
 #navTop ul li a.current {
-    color: orange;
+    color: red;
 }
 #navTop ul li:hover > ul {
     display: block;
@@ -119,6 +121,9 @@ header h1,h2 {
     font-weight: bold;
     color: white;
     background-color: black;
+}
+#navLeft ul li a:hover,a:focus {
+    color: red;
 }
 aside {
     width: 160px;
