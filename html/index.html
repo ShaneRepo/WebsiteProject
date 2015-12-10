@@ -11,6 +11,14 @@
     <!--links to favicon and stylesheet-->
     <link rel="shortcut icon" href="../resource/logo.ico">
     <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../javascript/jquery-ui.css">
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/jquery-ui.min.js"></script>
+    <script>
+        $(function() {
+            $( "#tabs" ).tabs();
+        });
+    </script>
 </head>
 <body>
     <!--start of the page header-->
@@ -49,7 +57,39 @@
     </aside>
     <!--start of main page content-->
 <main>
-
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">What I do</a></li>
+            <li><a href="#tabs-2">What I Play</a></li>
+            <li><a href="#tabs-3">Who I Thank</a></li>
+        </ul>
+        <div id="tabs-1">
+            <p>
+                I am a student who loves coding. I enjoy listening to programming podcasts
+                while I write code. I am constantly reading source code and documentation
+                to better understand the concepts and designs experienced developers use
+                in their day to day lives.
+            </p>
+        </div>
+        <div id="tabs-2">
+            <p>
+                I play computer games on Steam with a focus on strategy and RPG genres.
+                I have been playing games since I was two years old and they give me great
+                inspiration in my coding work.
+            </p>
+        </div>
+        <div id="tabs-3">
+            <p>
+                I have been blessed with great instructors at my college who have given me an
+                excellent foundation in computer programming. I would not have the confidence
+                and appreciation for the craft if not for excellent mentors. I owe a big thank
+                you to my former instructors.
+            </p>
+        </div>
+    </div>
+    <picture>
+        <img src="../images/Icons2/large/%23Computer.png" alt="Diploma">
+    </picture>
 </main>
     <!--page footer-->
 <footer>

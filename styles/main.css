@@ -144,6 +144,9 @@ main {
     float: right;
     padding: 1em;
 }
+main img {
+    padding: 1em;
+}
 footer p {
     text-align: center;
     font-weight: bold;
